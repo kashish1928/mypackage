@@ -37,7 +37,7 @@ library(mypackage)
 ## basic example code
 x <- 2
 y <- 3
-add_numbbers(x,y)
+add_numbers(x,y)
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:

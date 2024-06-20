@@ -1,8 +1,8 @@
 Package: mypackage
-Title: What the Package Does (One Line, Title Case)
+Title: learn package creation
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Kashish", "Joshipura", , "kashishjoshipura@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
@@ -11,7 +11,9 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
 URL: https://github.com/kashish1928/mypackage
 BugReports: https://github.com/kashish1928/mypackage/issues
+Config/testthat/edition: 3
